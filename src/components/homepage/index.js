@@ -2,6 +2,7 @@ import logo from '../Navbar/images/nestle-logo.png'
 import hero from './images/hero.png'
 import section1 from './images/section-1.webp'
 import arrowright from './images/arrow-right.png'
+import background from './images/background.jpg'
 import Footer from '../Footer'
 
 const Homepage = () => {
@@ -48,6 +49,8 @@ const Homepage = () => {
 						py-3
 						px-10
 						rounded-md
+						hover:bg-blue-500
+						transition-bg
 						">Request a Demo</button>
 					</div>
 				</div>
@@ -103,7 +106,7 @@ const Homepage = () => {
 			</div>
 
 			{/*SECTION*/}
-			<div className="grid grid-1 text-center py-20 px-40 bg-blue-500">
+			<div className="grid grid-1 text-center py-20 px-40 bg-cover bg-center" style={{ backgroundImage: `url(${background})` }}>
 				<div>
 					<p className="text-white mb-10 text-xl">Would you like to see the Swift Education Platform in action?</p>
 					<button className="
@@ -112,6 +115,8 @@ const Homepage = () => {
 					py-3
 					px-10
 					rounded-md
+					hover:bg-blue-500
+					transition-bg
 					">Request a Demo</button>
 				</div>
 			</div>
@@ -134,6 +139,8 @@ const Homepage = () => {
 						py-3
 						px-10
 						rounded-md
+						hover:bg-blue-500
+						transition-bg
 						">See All <img className="ml-2" width="24" height="24" src={arrowright} alt="long-arrow-right"/>
 						</button>
 					</div>
@@ -175,7 +182,7 @@ const Homepage = () => {
 
 			{/*SECTION*/}
 			<div className="grid lg:grid-cols-1 sm:grid-cols-1 gap-4 bg-white lg:px-20 lg:py-40 sm:px-10 sm:py-20">
-				<div className="bg-blue-500 lg:p-40 sm:p-20 rounded-lg">
+				<div className="bg-blue-500 lg:p-40 sm:p-20 rounded-lg shadow-lg">
 					<div className="grid lg:grid-cols-2 sm:grid-cols-1">
 						<div>
 							<h2 className=" text-5xl text-white capitalize font-bold">Find the best talent and build relationship!</h2>
@@ -200,7 +207,9 @@ const Homepage = () => {
 									text-white 
 									py-2 
 									px-4 
-									ml-2">Get a Demo</button>
+									ml-2
+									hover:bg-blue-800
+									transition-bg">Get a Demo</button>
 								</div>
 							</form>
 						</div>

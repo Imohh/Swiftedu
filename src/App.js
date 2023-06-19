@@ -1,16 +1,14 @@
 import Navbar from './components/Navbar'
-
+import Homepage from './components/Homepage'
 
 function App() {
   return (
     <>
       <div className="
         max-w-[2500px] 
-        mx-auto text-neutral-900 
-        dark:text-neutral-200
-        bg-red-500
-        dark:bg-neutral-800">
+        mx-auto ">
         <Navbar />
+        <Homepage />
       </div>
     </>
   );

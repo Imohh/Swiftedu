@@ -4,7 +4,7 @@ const Navbar = () => {
 	return (
 		<>
 
-			<nav className="mx-auto p-4 bg-amber-400">
+			<nav className="mx-auto p-4 bg-blue-900">
 			    <div className="
 			      container
 			      mx-auto
@@ -18,7 +18,7 @@ const Navbar = () => {
 			        ring-neutral-900
 			        rounded-sm
 			        ring-offset-4
-			        ring-offset-amber-400
+			        ring-offset-blue-900
 			        lg:absolute
 			        lg:left-1/2
 			        lg:-translate-x-1/2
@@ -36,9 +36,9 @@ const Navbar = () => {
 			        ring-neutral-900
 			        rounded-sm
 			        ring-offset-4
-			        ring-offset-amber-400
-			        text-neutral-900
-			        hover:text-neutral-600
+			        ring-offset-blue-900
+			        text-white
+			        hover:text-white-600
 			        transition-colors
 			        " 
 			        aria-expanded="false"
@@ -58,7 +58,7 @@ const Navbar = () => {
 			        right-0
 			        left-0
 			        top-16
-			        bg-amber-400
+			        bg-blue-900
 			        shadow-xl
 			        text-center
 			        text-lg
@@ -75,30 +75,30 @@ const Navbar = () => {
 			        className="
 			        py-1
 			        px-6
-			        dark:text-neutral-900
 			        focus:outline-none
 			        focus-visible:ring-4
 			        ring-neutral-900
 			        rounded-sm
 			        ring-offset-4
-			        ring-offset-amber-400
-			        hover:text-neutral-600
+			        ring-offset-blue-900
+			        hover:text-white-600
 			        transition-colors
+			        text-white
 			        " href="/">Home</a>
 			        <a role="menuitem" 
 			        className="
 			          py-1
 			          px-6
-			          dark:text-neutral-900
 			          focus:outline-none
 			          focus-visible:ring-4
 			          ring-neutral-900
 			          rounded-sm
 			          ring-offset-4
-			          ring-offset-amber-400
-			          hover:text-neutral-600
+			          ring-offset-blue-900
+			          hover:text-white-600
 			          transition-colors
 			          lg:mr-auto
+			          text-white
 			          " 
 			          href="/">
 			          About
@@ -106,15 +106,15 @@ const Navbar = () => {
 			        <a role="menuitem" className="
 			          py-1
 			          px-6
-			          dark:text-neutral-900
 			          focus:outline-none
 			          focus-visible:ring-4
 			          ring-neutral-900
 			          rounded-sm
 			          ring-offset-4
-			          ring-offset-amber-400
-			          hover:text-neutral-600
+			          ring-offset-blue-900
+			          hover:text-white-600
 			          transition-colors
+			          text-white
 			          " 
 			          href="/">
 			          Services
@@ -123,15 +123,15 @@ const Navbar = () => {
 			        className="
 			          py-1
 			          px-6
-			          dark:text-neutral-900
 			          focus:outline-none
 			          focus-visible:ring-4
 			          ring-neutral-900
 			          rounded-sm
 			          ring-offset-4
-			          ring-offset-amber-400
-			          hover:text-neutral-600
+			          ring-offset-blue-900
+			          hover:text-white-600
 			          transition-colors
+			          text-white
 			        " href="/">
 			        Contact
 			        </a>

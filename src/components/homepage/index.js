@@ -106,6 +106,41 @@ const Homepage = () => {
 			</div>
 
 			{/*SECTION*/}
+			<div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4 bg-gray-200 lg:px-20 lg:py-40 sm:px-10 sm:py-20">
+				<div className="mx-auto sm:order-2 lg:order-1">
+					<img src={section1} width="100%" alt="strategic enhancement" />
+				</div>
+				
+				<div className="sm:text-center lg:text-left my-auto sm:order-1 lg:order-2 sm:px-0 lg:px-10">
+					<p className="text-blue-500 uppercase font-semibold mb-5 text-lg">tools and systems</p>
+					<h2 className="w-90 text-5xl font-semibold mb-10">Recruiting tools and tracking systems</h2>
+					<p className="text-gray-400 text-xl">Swift Education is fully integrated wth other recruiting tools and applicant tracking
+					systems. With other recruiting tools and applicant tracking systems.</p>
+
+					<div className="
+					mt-10
+					sm:flex
+					sm:justify-center
+					lg:float-left">
+						<button className="
+						flex 
+						items-center
+						jstify-between
+						text-white
+						bg-blue-600
+						py-3
+						px-10
+						rounded-md
+						hover:bg-blue-500
+						transition-bg
+						">
+						discover all <img className="ml-2" width="24" height="24" src={arrowright} alt="long-arrow-right"/>
+						</button>
+					</div>
+				</div>
+			</div>
+
+			{/*SECTION*/}
 			<div className="grid grid-1 text-center py-20 px-40 bg-cover bg-center" style={{ backgroundImage: `url(${background})` }}>
 				<div>
 					<p className="text-white mb-10 text-xl">Would you like to see the Swift Education Platform in action?</p>

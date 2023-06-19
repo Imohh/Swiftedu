@@ -59,7 +59,7 @@ const Footer = () => {
 
 			</div>
 			<div className="text-center p-5 bg-blue-900 border-t border-solid border-gray-500">
-				<p className="text-white text-lg">All rights reserved. @Swift Education</p>
+				<p className="text-white text-lg">All rights reserved. © Swift Education</p>
 			</div>
 		</>
 	)

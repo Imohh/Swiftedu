@@ -1,11 +1,17 @@
-import './input.css'
+import Navbar from './components/Navbar'
 
 
 function App() {
   return (
     <>
-      <h2 className="bg-red-500">hello world</h2>
-      <h2 className="bg-blue-500">run the world</h2>
+      <div className="
+        max-w-[2500px] 
+        mx-auto text-neutral-900 
+        dark:text-neutral-200
+        bg-red-500
+        dark:bg-neutral-800">
+        <Navbar />
+      </div>
     </>
   );
 }

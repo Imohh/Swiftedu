@@ -1,6 +1,9 @@
+import React, {useState} from 'react'
 import logo from './images/nestle-logo.png'
 
 const Navbar = () => {
+	const [show, setShow] = useState(false)
+
 	return (
 		<>
 
@@ -48,9 +51,8 @@ const Navbar = () => {
 			          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
 			        </svg>
 			      </button>
-			      <div role="menubar" 
+			      {show && <div role="menubar" 
 			      className="
-			        hidden
 			        flex-col
 			        gap-4
 			        absolute
@@ -135,7 +137,7 @@ const Navbar = () => {
 			        " href="/">
 			        Contact
 			        </a>
-			      </div>
+			      </div>}
 			    </div>
 			</nav>
 		</>

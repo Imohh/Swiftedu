@@ -1,3 +1,4 @@
+import React, {useEffect} from 'react'
 import {Helmet} from "react-helmet";
 import logo from '../Navbar/images/nestle-logo.png'
 import hero from './images/hero.png'
@@ -12,10 +13,20 @@ import leventis from './images/leventis.png'
 import nobelova from './images/nobelova.png'
 import rosemore from './images/rosemore.png'
 import soteria from './images/soteria.jpg'
-// import Animate from 'animate.css-react'
-import 'animate.css/animate.css'
+import {WOW} from 'wowjs';
 
 const Homepage = () => {
+
+	useEffect(() => {
+	    const wow = new WOW({
+	      offset: 100,
+	      mobile: false,
+	      live: true,
+	    });
+
+	    wow.init();
+	}, []);
+
 	return (
 		<>
 		<Helmet>
@@ -119,14 +130,19 @@ const Homepage = () => {
 
 			{/*SECTION*/}
 			<div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4 bg-white px-5 py-10 lg:px-20 lg:py-40 sm:px-10 sm:py-20">
-				<div className="sm:text-center lg:text-left my-auto">
+				<div className="sm:text-center lg:text-left my-auto 
+				wow fadeInUp"
+				 data-wow-delay="0.2s">
 					<p className="text-blue-500 uppercase font-semibold mb-5 text-base md:text-lg lg:text-lg text-center lg:text-left md:text-left">strategic enhancement</p>
 					<h2 className="
-					animate__animated animate__backInLeft
-					w-90 text-3xl font-semibold md:text-5xl lg:text-5xl font-semibold mb-10 text-center lg:text-left md:text-left">
+					wow bounceIn
+					w-90 text-3xl font-semibold md:text-5xl lg:text-5xl font-semibold mb-10 text-center lg:text-left md:text-left"
+					data-wow-delay="0.2s"
+					>
 						Fill more vacancies in a shorter time.
 					</h2>
-					<p className="text-gray-400 text-base md:text-lg lg:text-xl text-center lg:text-left md:text-left">Swift Education is the strategic enhancement to your applicant tracking system. Consolidate your recruitment
+					<p className="
+					text-gray-400 text-base md:text-lg lg:text-xl text-center lg:text-left md:text-left">Swift Education is the strategic enhancement to your applicant tracking system. Consolidate your recruitment
 					activities on one single platform and build talent pools for long term success in recruitment.</p>
 				</div>
 

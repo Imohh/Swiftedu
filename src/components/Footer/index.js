@@ -14,7 +14,7 @@ const Footer = () => {
 					lg:justify-between">
 						<img src={logo} width="200" className="w-48 md:w-64 lg:w-72" alt="Home Smart Logo" />
 					</div>
-					<p className="text-gray-400 font-semibold text-center lg:text-left md:text-left">The most complete recruitment agency for talent sorcing, recruitment events and internal mobility.</p>
+					<p className="text-gray-400 font-semibold text-center lg:text-left md:text-left">The most complete recruitment agency for talent suorcing, recruitment events and internal mobility.</p>
 
 				</div>
 				<div>
@@ -58,8 +58,8 @@ const Footer = () => {
 				<div>
 					<h3 className="capitalize text-white text-2xl font-bold text-center lg:text-left md:text-left">company</h3>
 					<ul>
-						<li className="capitalize mt-3 text-gray-400 font-semibold text-center lg:text-left md:text-left"><a href="">contact us</a></li>
-						<li className="capitalize mt-3 text-gray-400 font-semibold text-center lg:text-left md:text-left"><a href="">careers</a></li>
+						<li className="capitalize mt-3 text-gray-400 font-semibold text-center lg:text-left md:text-left"><a href="/contact">contact us</a></li>
+						<li className="capitalize mt-3 text-gray-400 font-semibold text-center lg:text-left md:text-left"><a href="/about">about</a></li>
 						<li className="capitalize mt-3 text-gray-400 font-semibold text-center lg:text-left md:text-left"><a href="">privacy policy</a></li>
 						<li className="capitalize mt-3 text-gray-400 font-semibold text-center lg:text-left md:text-left"><a href="">legal</a></li>
 					</ul>

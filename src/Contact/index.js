@@ -1,3 +1,4 @@
+import {Helmet} from "react-helmet";
 import handwaving from './images/hand-waving.png'
 import nigeriamap from './images/nigeria-map.webp'
 
@@ -5,6 +6,10 @@ import nigeriamap from './images/nigeria-map.webp'
 const Contact = () => {
 	return (
 		<>
+			<Helmet>
+		        <title>Swift Education | Contact Page</title>
+		        <meta name="description" content="Swift Education about page" />
+		    </Helmet>
 			<div className="text-center mx-auto p-20">
 				<p className="text-blue-900 pb-5 text-lg font-semibold capitalize">contact us</p>
 				<h1 className="text-3xl md:text-6xl lg:text-6xl pb-5 font-bold">Love to hear from you, get in touch</h1>

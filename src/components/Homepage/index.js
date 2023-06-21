@@ -1,3 +1,4 @@
+import {Helmet} from "react-helmet";
 import logo from '../Navbar/images/nestle-logo.png'
 import hero from './images/hero.png'
 import tools from './images/tools.jpg'
@@ -12,6 +13,11 @@ import 'animate.css/animate.css'
 const Homepage = () => {
 	return (
 		<>
+		<Helmet>
+	        <title>Welcome to Swift Education | Hire the best talent today!</title>
+	        <meta name="description" content="Swift Education about page" />
+	    </Helmet>
+
 		{/*HERO SECTION*/}
 			<div className="
 			grid 
@@ -67,7 +73,7 @@ const Homepage = () => {
 						">Request a Demo</button>
 					</div>
 				</div>
-				<div className="mx-auto my-auto
+				<div className=" mx-auto my-auto
 				sm:mt-20">
 					<img width="80%" className="mx-auto" src={hero} alt="hero"/>
 				</div>

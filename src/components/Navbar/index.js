@@ -109,7 +109,7 @@ const Navbar = () => {
 			          lg:mr-auto
 			          text-white
 			          " 
-			          href="/">
+			          href="/about">
 			          About
 			        </a>
 			        <a role="menuitem" className="

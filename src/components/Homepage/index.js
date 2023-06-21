@@ -235,7 +235,7 @@ const Homepage = () => {
 
 			{/* TESTIMONIAL SECTION*/}
 			<div className="bg-gray-200 px-5 py-10 lg:px-20 lg:py-40 sm:px-10 sm:py-20">
-				<h1 className="text-center text-4xl font-bold capitalize pb-10 mx-auto">what businesses are saying about swift education</h1>
+				<h1 className="text-center text-4xl font-bold capitalize pb-10 mx-auto">What our clients think about us</h1>
 				<div className="gap-4 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 bg-gray-200 lg:py-10 lg:px-36 sm:py-10">
 					<div className="bg-white p-10 w-full mx-auto shadow-lg">
 						<div className="pb-5">

@@ -141,7 +141,7 @@ const Navbar = () => {
 			          hover:text-white-600
 			          transition-colors
 			          text-white
-			        " href="/">
+			        " href="/contact">
 			        Contact
 			        </a>
 			      </div>
@@ -152,7 +152,7 @@ const Navbar = () => {
 					      <a href="/" class="text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
 					      <a href="/" class="text-white block px-3 py-2 rounded-md text-base font-medium">About us</a>
 					      <a href="/" class="text-white block px-3 py-2 rounded-md text-base font-medium">Services</a>
-					      <a href="/" class="text-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+					      <a href="/contact" class="text-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
 					    </div>
 					</div>
 				}

@@ -147,7 +147,7 @@ const Navbar = () => {
 			      </div>
 			    </div>
 			    {show && 
-			    	<div class="lg:hidden" id="mobile-menu">
+			    	<div class="lg:hidden shadow-lg shadow-b" id="mobile-menu">
 					    <div class="px-2 pt-2 pb-3 space-y-1">
 					      <a href="/" class="text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
 					      <a href="/" class="text-white block px-3 py-2 rounded-md text-base font-medium">About us</a>

@@ -283,7 +283,7 @@ const Homepage = () => {
 							mt-10 md:mt-0 mb-5 lg:mt-0 sm:mt-5
 							text-white text-lg text-center lg:text-left md:text-left">
 							The most complete talent relationship platform for talent sourcing, recruitment events and internal mobility.</p>
-							<form className="flex justify-center">
+							<form className="flex justify-center lg:flex-none lg:justify-between">
 								<div className="lg:flex">
 									<input type="text" className="
 									lg:rounded-l-md 

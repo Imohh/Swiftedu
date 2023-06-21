@@ -1,5 +1,7 @@
 import logo from '../Navbar/images/nestle-logo.png'
 import hero from './images/hero.png'
+import tools from './images/tools.jpg'
+import vacancy from './images/vacancy.jpg'
 import section1 from './images/section-1.webp'
 import arrowright from './images/arrow-right.png'
 import background from './images/background.jpg'
@@ -22,7 +24,7 @@ const Homepage = () => {
 			sm:py-10
 			sm:px-10
 			bg-blue-900">
-				<div>
+				<div className="my-auto">
 					<h1 className="
 					text-3xl
 					md:text-6xl
@@ -67,7 +69,7 @@ const Homepage = () => {
 				</div>
 				<div className="mx-auto my-auto
 				sm:mt-20">
-					<img src={hero} alt="hero"/>
+					<img width="80%" className="mx-auto" src={hero} alt="hero"/>
 				</div>
 				<div className="grid grid-cols-2 mt-4 mb-20">
 					<div className="flex items-center border-solid border-r border-gray-200">
@@ -116,14 +118,14 @@ const Homepage = () => {
 				</div>
 
 				<div className="mx-auto ">
-					<img src={section1} width="100%" alt="strategic enhancement" />
+					<img src={vacancy} width="100%" alt="strategic enhancement" />
 				</div>
 			</div>
 
 			{/*SECTION*/}
-			<div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4 bg-gray-200 px-5 py-10 lg:px-20 lg:py-40 sm:px-10 sm:py-20">
+			<div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4 bg-gray-200 px-5 py-10 lg:px-20 lg:py-0 sm:px-10 sm:py-0">
 				<div className="mx-auto order-2 lg:order-1">
-					<img src={section1} width="100%" alt="strategic enhancement" />
+					<img src={tools} width="100%" alt="strategic enhancement" />
 				</div>
 				
 				<div className="sm:text-center py-10 lg:py-0 md:py-0 lg:text-left my-auto order-1 lg:order-2 sm:px-0 lg:px-10">

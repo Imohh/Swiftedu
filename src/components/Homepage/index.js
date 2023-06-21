@@ -106,23 +106,22 @@ const Homepage = () => {
 			</div>
 			{/*PARTNERS SECTION*/}
 			<div className="p-10 md:p-20 lg:p-20 bg-gray-200">
-				<p className="text-center pb-12 text-gray-400 text-xl font-bold">Swift Education is an award winning platform trusted by leading employer companies and schools</p>
+				<p className="wow fadeInUp text-center pb-12 text-gray-400 text-xl font-bold">Swift Education is an award winning platform trusted by leading employer companies and schools</p>
 				
-				<div className="flex gap-4 justify-center px-0 lg:px-36 sm:text-center ">
-					<div>
-						{/*<img src={logo} width="200" className="w-48 md:w-64 lg:w-72" alt="Home Smart Logo" />*/}
+				<div className="flex gap-4 justify-center px-0 lg:px-36 sm:text-center">
+					<div className="wow bounceIn">
 						<img src={tots} width="200"  className="w-48 md:w-64 lg:w-36" alt="duolingo-logo"/>
 					</div>
-					<div>
+					<div className="wow bounceIn">
 						<img src={leventis} width="200" className="w-48 md:w-64 lg:w-72" alt="Home Smart Logo" />
 					</div>
-					<div>
+					<div className="wow bounceIn">
 						<img src={nobelova} width="200" className="w-48 md:w-64 lg:w-72" alt="Home Smart Logo" />
 					</div>
-					<div>
+					<div className="wow bounceIn">
 						<img src={rosemore} width="200" className="w-48 md:w-64 lg:w-72" alt="Home Smart Logo" />
 					</div>
-					<div>
+					<div className="wow bounceIn">
 						<img src={soteria} width="200" className="w-48 md:w-64 lg:w-72" alt="Home Smart Logo" />
 					</div>
 				</div>

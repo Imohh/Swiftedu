@@ -3,6 +3,9 @@ import hero from './images/hero.png'
 import section1 from './images/section-1.webp'
 import arrowright from './images/arrow-right.png'
 import background from './images/background.jpg'
+import comma from './images/comma.png'
+// import Animate from 'animate.css-react'
+import 'animate.css/animate.css'
 
 const Homepage = () => {
 	return (
@@ -103,7 +106,11 @@ const Homepage = () => {
 			<div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4 bg-white px-5 py-10 lg:px-20 lg:py-40 sm:px-10 sm:py-20">
 				<div className="sm:text-center lg:text-left my-auto">
 					<p className="text-blue-500 uppercase font-semibold mb-5 text-base md:text-lg lg:text-lg text-center lg:text-left md:text-left">strategic enhancement</p>
-					<h2 className="w-90 text-3xl font-semibold md:text-5xl lg:text-5xl font-semibold mb-10 text-center lg:text-left md:text-left">Fill more vacancies in a shorter time.</h2>
+					<h2 className="
+					animate__animated animate__backInLeft
+					w-90 text-3xl font-semibold md:text-5xl lg:text-5xl font-semibold mb-10 text-center lg:text-left md:text-left">
+						Fill more vacancies in a shorter time.
+					</h2>
 					<p className="text-gray-400 text-base md:text-lg lg:text-xl text-center lg:text-left md:text-left">Swift Education is the strategic enhancement to your applicant tracking system. Consolidate your recruitment
 					activities on one single platform and build talent pools for long term success in recruitment.</p>
 				</div>
@@ -223,6 +230,42 @@ const Homepage = () => {
 					</div>
 				</div>
 			</div>
+
+			{/* TESTIMONIAL SECTION*/}
+			<div className="bg-gray-200 px-5 py-10 lg:px-20 lg:py-40 sm:px-10 sm:py-20">
+				<h1 className="text-center text-4xl font-bold capitalize pb-10 mx-auto">what businesses are saying about swift education</h1>
+				<div className="gap-4 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 bg-gray-200 lg:py-10 lg:px-36 sm:py-10">
+					<div className="bg-white p-10 w-full mx-auto shadow-lg">
+						<div className="pb-5">
+							<img className="float-left" width="40" height="40" src={comma} alt="comma" />
+							<img width="40" height="40" src={comma} alt="comma" />
+						</div>
+						<p className="text-2xl pb-10">"I don't have to worry about getting new members of staff for my school. Swift Education handles it with ease"</p>
+						<p className="text-xl font-semibold">Mrs. Chikwendu</p>
+						<p className="text-gray-400">Owner of Tot n' Cots School</p>
+					</div>
+					<div className="bg-white p-10 w-full mx-auto shadow-lg">
+						<div className="pb-5">
+							<img className="float-left" width="40" height="40" src={comma} alt="comma" />
+							<img width="40" height="40" src={comma} alt="comma" />
+						</div>
+						<p className="text-2xl pb-10">"At first i was skeptical but after working with Swift Edu for over 2 years,
+						i can confidently recommend them to people who need their services"</p>
+						<p className="text-xl font-semibold">Mr. Emeka</p>
+						<p className="text-gray-400">HR Leventis</p>
+					</div>
+					<div className="bg-white p-10 w-full mx-auto shadow-lg">
+						<div className="pb-5">
+							<img className="float-left" width="40" height="40" src={comma} alt="comma" />
+							<img width="40" height="40" src={comma} alt="comma" />
+						</div>
+						<p className="text-2xl pb-10">"Extremely professional and deliver on time"</p>
+						<p className="text-xl font-semibold">Mrs. Temitope</p>
+						<p className="text-gray-400">Marketer at Ocean View</p>
+					</div>
+				</div>
+			</div>
+
 
 			{/*SECTION*/}
 			<div className="grid lg:grid-cols-1 sm:grid-cols-1 gap-4 bg-white py-10 lg:px-20 lg:py-40 sm:px-10 sm:py-20">

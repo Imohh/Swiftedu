@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import logo from './images/nestle-logo.png'
 
 const Navbar = () => {
-	const [show, setShow] = useState(false)
+	const [show, setShow] = useState(true)
 
 	return (
 		<>

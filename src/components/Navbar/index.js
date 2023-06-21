@@ -4,6 +4,10 @@ import logo from './images/nestle-logo.png'
 const Navbar = () => {
 	const [show, setShow] = useState(true)
 
+	const toggleMobileMenu = () => {
+	    setShow(!show);
+	};
+
 	return (
 		<>
 
@@ -43,7 +47,8 @@ const Navbar = () => {
 			        text-white
 			        hover:text-white-600
 			        transition-colors
-			        " 
+			        "
+			        onClick={toggleMobileMenu}
 			        aria-expanded="false"
 			        aria-label="Open Menu">
 			        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"
@@ -51,8 +56,9 @@ const Navbar = () => {
 			          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
 			        </svg>
 			      </button>
-			      {show && <div role="menubar" 
+			      <div role="menubar" 
 			      className="
+				    hidden
 			        flex-col
 			        gap-4
 			        absolute
@@ -86,6 +92,7 @@ const Navbar = () => {
 			        hover:text-white-600
 			        transition-colors
 			        text-white
+			        w-100
 			        " href="/">Home</a>
 			        <a role="menuitem" 
 			        className="
@@ -137,8 +144,18 @@ const Navbar = () => {
 			        " href="/">
 			        Contact
 			        </a>
-			      </div>}
+			      </div>
 			    </div>
+			    {show && 
+			    	<div class="lg:hidden" id="mobile-menu">
+					    <div class="px-2 pt-2 pb-3 space-y-1">
+					      <a href="/" class="text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
+					      <a href="/" class="text-white block px-3 py-2 rounded-md text-base font-medium">About us</a>
+					      <a href="/" class="text-white block px-3 py-2 rounded-md text-base font-medium">Services</a>
+					      <a href="/" class="text-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+					    </div>
+					</div>
+				}
 			</nav>
 		</>
 	)

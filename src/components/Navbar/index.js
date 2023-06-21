@@ -13,8 +13,9 @@ const Navbar = () => {
 
 			<nav className="mx-auto p-4 bg-blue-900">
 			    <div className="
-			      container
-			      mx-auto
+			      mx-0
+			      lg:container
+			      lg:mx-auto
 			      flex
 			      items-center
 			      justify-between

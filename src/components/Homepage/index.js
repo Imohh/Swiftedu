@@ -268,7 +268,7 @@ const Homepage = () => {
 
 
 			{/*SECTION*/}
-			<div className="grid lg:grid-cols-1 sm:grid-cols-1 gap-4 bg-white py-10 lg:px-20 lg:py-40 sm:px-10 sm:py-20">
+			<div className="grid lg:grid-cols-1 sm:grid-cols-1 bg-white py-10 lg:px-20 lg:py-40 sm:px-10 sm:py-20">
 				<div className="bg-blue-500 py-10 px-5 lg:px-30 lg:py-40 sm:p-20 md:rounded-lg lg:rounded-lg shadow-lg">
 					<div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-0 gap-4 xl:gap-40">
 						<div>

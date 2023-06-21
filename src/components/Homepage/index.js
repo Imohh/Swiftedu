@@ -268,42 +268,47 @@ const Homepage = () => {
 
 
 			{/*SECTION*/}
-			<div className="grid lg:grid-cols-1 sm:grid-cols-1 bg-white pt-10 lg:px-20 lg:py-40 sm:px-10 sm:py-20">
-				<div className="bg-blue-500 py-10 px-5 lg:px-30 lg:py-40 sm:p-20 md:rounded-lg lg:rounded-lg shadow-lg">
+			<div className="grid lg:grid-cols-1 sm:grid-cols-1 bg-white lg:px-20 lg:py-40 sm:px-10 sm:py-20">
+				<div className="bg-blue-500 py-10 px-3 lg:px-30 lg:py-40 sm:p-20 md:rounded-lg lg:rounded-lg shadow-lg">
 					<div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-0 gap-4 xl:gap-40">
-						<div>
-							<h2 className="
-							text-3xl md: text-5xl lg:text-5xl text-white 
+						<h2 className="
+							text-3xl md:text-5xl lg:text-5xl text-white 
 							font-bold text-center lg:text-left md:text-left">
 							Find the best talent and build relationship!
-							</h2>
-						</div>
+						</h2>
 						<div>
 							<p className="
 							mt-10 md:mt-0 mb-5 lg:mt-0 sm:mt-5
 							text-white text-lg text-center lg:text-left md:text-left">
 							The most complete talent relationship platform for talent sourcing, recruitment events and internal mobility.</p>
-							<form>
-								<div className="flex">
+							<form className="flex justify-center">
+								<div className="lg:flex">
 									<input type="text" className="
-									rounded-l-md 
-									py-2 
-									px-4 
+									lg:rounded-l-md 
+									lg:py-2 
+									lg:px-4 
+									md:py-2 
+									md:px-4 
+									mb-5
+									lg:mb-0
 									border 
 									border-gray-300 
 									focus:outline-none 
 									focus:ring-blue-500 
 									focus:border-blue-500 
 									flex-grow" placeholder="Your Email" />
+									<div className="flex justify-center">
 									<button className="
-									rounded-r-md 
+									lg:rounded-r-md 
 									bg-blue-900 
 									text-white 
 									py-2 
 									px-4 
-									ml-2
+									ml-0
+									lg:ml-2
 									hover:bg-blue-800
 									transition-bg">Get a Demo</button>
+									</div>
 								</div>
 							</form>
 						</div>

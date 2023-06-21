@@ -46,7 +46,7 @@ const Homepage = () => {
 			sm:py-10
 			sm:px-10
 			bg-blue-900">
-				<div className="my-auto">
+				<div className="my-auto wow fadeInLeft">
 					<h1 className="
 					text-3xl
 					md:text-6xl
@@ -89,11 +89,11 @@ const Homepage = () => {
 						">Request a Demo</button>
 					</div>
 				</div>
-				<div className=" mx-auto my-auto
-				sm:mt-20">
+				<div className=" mx-auto my-auto sm:mt-20
+				wow fadeInRight">
 					<img width="80%" className="mx-auto" src={hero} alt="hero"/>
 				</div>
-				<div className="grid grid-cols-2 mt-4 mb-20">
+				<div className="grid grid-cols-2 mt-4 mb-20 wow fadeInLeft">
 					<div className="flex items-center border-solid border-r border-gray-200">
 					  <h1 className="mr-2 text-white text-4xl sm:text-6xl lg:text-6xl font-semibold">4.5</h1>
 					  <p className="text-gray-400 text-lg sm:text-xl md:text-xl lg:text-xl">Value rated from Trustpilot</p>
@@ -146,18 +146,19 @@ const Homepage = () => {
 					activities on one single platform and build talent pools for long term success in recruitment.</p>
 				</div>
 
-				<div className="mx-auto ">
+				<div className="mx-auto wow fadeInUp"
+				 data-wow-delay="0.2s">
 					<img src={vacancy} width="100%" alt="strategic enhancement" />
 				</div>
 			</div>
 
 			{/*SECTION*/}
 			<div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4 bg-gray-200 px-5 py-10 lg:px-20 lg:py-0 sm:px-10 sm:py-0">
-				<div className="mx-auto order-2 lg:order-1">
+				<div className="mx-auto order-2 lg:order-1 wow fadeInUp">
 					<img src={tools} width="100%" alt="strategic enhancement" />
 				</div>
 				
-				<div className="sm:text-center py-10 lg:py-0 md:py-0 lg:text-left my-auto order-1 lg:order-2 sm:px-0 lg:px-10">
+				<div className="sm:text-center py-10 lg:py-0 md:py-0 lg:text-left my-auto order-1 lg:order-2 sm:px-0 lg:px-10 wow fadeInUp">
 					<p className="text-blue-500 uppercase font-semibold mb-5 text-base md:text-lg lg:text-lg text-center lg:text-left md:text-left">tools and systems</p>
 					<h2 className="w-90 text-3xl font-semibold md:text-5xl lg:text-5xl font-semibold mb-10 text-center lg:text-left md:text-left">Recruiting tools and tracking systems</h2>
 					<p className="text-gray-400 text-base md:text-lg lg:text-xl text-center lg:text-left md:text-left">Swift Education is fully integrated wth other recruiting tools and applicant tracking
@@ -188,7 +189,7 @@ const Homepage = () => {
 
 			{/*SECTION*/}
 			<div className="grid grid-1 text-center px-5 py-16 md:py-20 md:px-40 lg:py-20 lg:px-40 bg-cover bg-center" style={{ backgroundImage: `url(${background})` }}>
-				<div>
+				<div className="wow fadeInUp">
 					<p className="text-white mb-10 text-xl">Would you like to see the Swift Education Platform in action?</p>
 					<button className="
 					text-white
@@ -204,7 +205,7 @@ const Homepage = () => {
 
 			{/*SECTION*/}
 			<div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4 bg-white px-5 py-10 lg:px-20 lg:py-40 sm:px-10 sm:py-20">
-				<div className="">
+				<div className="wow fadeInLeft">
 					<p className="ext-blue-500 uppercase font-semibold mb-5 text-base md:text-lg lg:text-lg text-center lg:text-left md:text-left">solution challenge</p>
 					<h2 className="w-90 text-3xl font-semibold md:text-5xl lg:text-5xl font-semibold mb-10 text-center lg:text-left md:text-left">A solution for every recruitment challenge</h2>
 					<div className="
@@ -226,7 +227,7 @@ const Homepage = () => {
 						</button>
 					</div>
 				</div>
-				<div className="">
+				<div className="wow fadeInRight">
 					<div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
 						<div className="sm:text-center lg:text-left">
 							<div className="
@@ -264,9 +265,9 @@ const Homepage = () => {
 
 			{/* TESTIMONIAL SECTION*/}
 			<div className="bg-gray-200 px-5 py-10 lg:px-20 lg:py-40 sm:px-10 sm:py-20">
-				<h1 className="text-center text-4xl font-bold capitalize pb-10 mx-auto">What our clients think about us</h1>
+				<h1 className="wow fadeInUp text-center text-4xl font-bold capitalize pb-10 mx-auto">What our clients think about us</h1>
 				<div className="gap-4 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 bg-gray-200 lg:py-10 lg:px-36 sm:py-10">
-					<div className="bg-white p-10 w-full mx-auto shadow-lg">
+					<div className="wow bounceIn bg-white p-10 w-full mx-auto shadow-lg">
 						<div className="pb-5">
 							<img className="float-left" width="40" height="40" src={comma} alt="comma" />
 							<img width="40" height="40" src={comma} alt="comma" />
@@ -275,7 +276,7 @@ const Homepage = () => {
 						<p className="text-xl font-semibold">Mrs. Chikwendu</p>
 						<p className="text-gray-400">Owner of Tot n' Cots School</p>
 					</div>
-					<div className="bg-white p-10 w-full mx-auto shadow-lg">
+					<div className="wow bounceIn bg-white p-10 w-full mx-auto shadow-lg">
 						<div className="pb-5">
 							<img className="float-left" width="40" height="40" src={comma} alt="comma" />
 							<img width="40" height="40" src={comma} alt="comma" />
@@ -285,7 +286,7 @@ const Homepage = () => {
 						<p className="text-xl font-semibold">Mr. Emeka</p>
 						<p className="text-gray-400">HR Leventis</p>
 					</div>
-					<div className="bg-white p-10 w-full mx-auto shadow-lg">
+					<div className="wow bounceIn bg-white p-10 w-full mx-auto shadow-lg">
 						<div className="pb-5">
 							<img className="float-left" width="40" height="40" src={comma} alt="comma" />
 							<img width="40" height="40" src={comma} alt="comma" />
@@ -300,7 +301,7 @@ const Homepage = () => {
 
 			{/*SECTION*/}
 			<div className="grid lg:grid-cols-1 sm:grid-cols-1 bg-white lg:px-20 lg:py-40 sm:px-10 sm:py-20">
-				<div className="bg-blue-500 py-10 px-3 lg:px-30 lg:py-40 sm:p-20 md:rounded-lg lg:rounded-lg shadow-lg">
+				<div className="wow fadeInUp bg-blue-500 py-10 px-3 lg:px-30 lg:py-40 sm:p-20 md:rounded-lg lg:rounded-lg shadow-lg">
 					<div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-0 gap-4 xl:gap-40">
 						<h2 className="
 							text-3xl md:text-5xl lg:text-5xl text-white 

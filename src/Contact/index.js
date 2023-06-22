@@ -10,7 +10,7 @@ const Contact = () => {
 		        <title>Swift Educational Consult | Contact Page</title>
 		        <meta name="description" content="Swift Educational Consult about page" />
 		    </Helmet>
-			<div className="text-center mx-auto p-20 wow fadeInUp">
+			<div className="text-center mx-auto p-5 md-p-20 lg:p-20 wow fadeInUp">
 				<p className="text-orange-900 pb-5 text-lg font-semibold capitalize">contact us</p>
 				<h1 className="text-3xl md:text-6xl lg:text-6xl pb-5 font-bold wow fadeInRight wow rubberBand">Love to hear from you, get in touch</h1>
 				<p className="text-md md:text-lg :lg:text-lg">We have an office and a team to attend to your needs from anywhere in the country</p>

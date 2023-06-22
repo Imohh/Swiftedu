@@ -1,4 +1,3 @@
-import React, {useEffect} from 'react'
 import {Helmet} from "react-helmet";
 import logo from '../Navbar/images/nestle-logo.png'
 import hero from './images/hero.png'
@@ -13,20 +12,8 @@ import leventis from './images/leventis.png'
 import nobelova from './images/nobelova.png'
 import rosemore from './images/rosemore.png'
 import soteria from './images/soteria.jpg'
-import {WOW} from 'wowjs';
 
 const Homepage = () => {
-
-	useEffect(() => {
-	    const wow = new WOW({
-	      offset: 100,
-	      mobile: false,
-	      live: true,
-	    });
-
-	    wow.init();
-	}, []);
-
 	return (
 		<>
 		<Helmet>
@@ -303,17 +290,19 @@ const Homepage = () => {
 				<div className="wow fadeInUp bg-blue-500 py-10 px-3 lg:px-30 lg:py-40 sm:p-20 md:rounded-lg lg:rounded-lg shadow-lg">
 					<div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-0 gap-4 xl:gap-40">
 						<h2 className="
+							wow fadeInLeft
 							text-3xl md:text-5xl lg:text-5xl text-white 
 							font-bold text-center lg:text-left md:text-left">
 							Find the best talent and build relationship!
 						</h2>
 						<div>
 							<p className="
+							wow fadeInRight
 							mt-10 md:mt-0 mb-5 lg:mt-0 sm:mt-5
 							text-white text-lg text-center lg:text-left md:text-left">
 							The most complete talent relationship platform for talent sourcing, recruitment events and internal mobility.</p>
 							<form className="flex justify-center lg:flex-none lg:justify-between">
-								<div className="lg:flex">
+								<div className="lg:flex wow fadeInRight">
 									<input type="text" className="
 									lg:rounded-l-md 
 									lg:py-2 

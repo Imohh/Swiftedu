@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import {Helmet} from "react-helmet";
 import logo from '../Navbar/images/nestle-logo.png'
 import hero from './images/hero.png'
@@ -66,16 +67,20 @@ const Homepage = () => {
 					lg:mb-0
 					md:mb-0
 					sm:mb-0">
-						<button className="
-						text-white
-						font-semibold
-						bg-orange-600
-						py-3
-						px-10
-						rounded-md
-						hover:bg-orange-500
-						transition-bg
-						">Request a Demo</button>
+						<Link to="/contact">
+							<button className="
+								text-white
+								font-semibold
+								bg-orange-600
+								py-3
+								px-10
+								rounded-md
+								hover:bg-orange-500
+								transition-bg
+							">
+								Contact us Today
+							</button>
+						</Link>
 					</div>
 				</div>
 				<div className=" mx-auto my-auto sm:mt-20
@@ -157,21 +162,23 @@ const Homepage = () => {
 					flex
 					justify-center
 					lg:float-left">
-						<button className="
-						flex 
-						items-center
-						jstify-between
-						text-white
-						bg-orange-600
-						py-3
-						px-10
-						rounded-md
-						hover:bg-orange-500
-						transition-bg
-						capitalize
-						">
-						discover all <img className="ml-2" width="24" height="24" src={arrowright} alt="long-arrow-right"/>
-						</button>
+						<Link to="/about">
+							<button className="
+							flex 
+							items-center
+							jstify-between
+							text-white
+							bg-orange-600
+							py-3
+							px-10
+							rounded-md
+							hover:bg-orange-500
+							transition-bg
+							capitalize
+							">
+							discover all <img className="ml-2" width="24" height="24" src={arrowright} alt="long-arrow-right"/>
+							</button>
+						</Link>
 					</div>
 				</div>
 			</div>
@@ -180,15 +187,17 @@ const Homepage = () => {
 			<div className="grid grid-1 text-center px-5 py-16 md:py-20 md:px-40 lg:py-20 lg:px-40 bg-cover bg-center" style={{ backgroundImage: `url(${background})` }}>
 				<div className="wow fadeInUp">
 					<p className="text-white mb-10 text-xl">Would you like to see the Swift Educational Consult Platform in action?</p>
-					<button className="
-					text-white
-					bg-orange-600
-					py-3
-					px-10
-					rounded-md
-					hover:bg-orange-500
-					transition-bg
-					">Request a Demo</button>
+					<Link to="/contact">
+						<button className="
+						text-white
+						bg-orange-600
+						py-3
+						px-10
+						rounded-md
+						hover:bg-orange-500
+						transition-bg
+						">Contact us Today</button>
+					</Link>
 				</div>
 			</div>
 
@@ -253,7 +262,7 @@ const Homepage = () => {
 			</div>
 
 			{/* TESTIMONIAL SECTION*/}
-			<div className="bg-gray-200 px-5 py-10 lg:px-20 lg:py-40 sm:px-10 sm:py-20">
+			<div className="bg-gray-200 px-5 py-10  xl:px-20 xl:py-40 sm:px-10 sm:py-20">
 				<h1 className="wow fadeInUp text-center text-3xl md:text-4xl lg:text-4xl font-bold capitalize pb-10 mx-auto">What our clients think about us</h1>
 				<div className="gap-4 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 bg-gray-200 lg:py-10 lg:px-36 sm:py-10">
 					<div className="wow bounceIn bg-white p-10 w-full mx-auto shadow-lg">
@@ -308,9 +317,9 @@ const Homepage = () => {
 								<div className="lg:flex wow fadeInRight">
 									<input type="text" className="
 									lg:rounded-l-md 
-									lg:py-2 
+									lg:py-3
 									lg:px-4 
-									md:py-2 
+									md:py-3 
 									md:px-4 
 									mb-5
 									lg:mb-0
@@ -322,15 +331,21 @@ const Homepage = () => {
 									flex-grow" placeholder="Your Email" />
 									<div className="flex justify-center">
 									<button className="
+									xl:rounded-r-md 
 									lg:rounded-r-md 
+									md:rounded-r-md 
+									lg:rounded-none
+									xl:rounded-none
+									rounded-md
 									bg-orange-600
 									text-white 
-									py-2 
+									py-3
 									px-4 
 									ml-0
 									lg:ml-2
 									hover:bg-orange-500
-									transition-bg">Get a Demo</button>
+									transition-bg"
+									>Get in Touch</button>
 									</div>
 								</div>
 							</form>

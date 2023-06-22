@@ -14,7 +14,7 @@ const About = () => {
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 px-10 py-20 xl:py-20 lg:px-60">
 				<div className="my-auto text-center lg:text-left md:text-left wow fadeInLeft">
 					<h1 className="text-4xl xl:text-6xl md:text-6xl text-orange-900 font-bold mb-10">Looking to find and hire great talent?</h1>
-					<p className="text-xl">Our aim is to provide best-in-class recruitment tools, processes, and automation
+					<p className="lg:text-xl md:text-xl text-lg">Our aim is to provide best-in-class recruitment tools, processes, and automation
 					in one complete solution</p>
 				</div>
 				<div className="mx-auto wow fadeInRight">
@@ -22,7 +22,7 @@ const About = () => {
 				</div>
 			</div>
 
-			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 px-10 py-20 lg:py-36 lg:px-36 bg-gray-200">
+			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 px-5 py-20 lg:py-36 lg:px-36 bg-gray-200">
 				<div className="text-center wow fadeInUp">
 					<img className="mx-auto mb-10" width="84" height="84" src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/84/external-vision-economy-flatart-icons-flat-flatarticons-1.png" alt="external-vision-economy-flatart-icons-flat-flatarticons-1"/>
 					<p className="font-bold text-lg mb-10 uppercase">our vision</p>
@@ -40,8 +40,8 @@ const About = () => {
 					<img className="mx-auto" width="40%" src={handshake} alt="external-vision-economy-flatart-icons-flat-flatarticons-1"/>
 				</div>
 				<div className="text-center md:text-left lg:text-left wow fadeInRight">
-					<h1 className="text-orange-900 mb-10 text-6xl font-bold">Join us</h1>
-					<p className="text-xl mb-10">Enough about us. We're more interested in you. Talent sourcing in our blood, so if you're bright,
+					<h1 className="text-orange-900 mb-10 text-4xl md:text-6xl lg:text-6xl font-bold">Join us</h1>
+					<p className="text-lg md:text-xl lg:text-xl mb-10">Enough about us. We're more interested in you. Talent sourcing in our blood, so if you're bright,
 					bold and after more than a job, get in touch. We look forward to meeting you.</p>
 					<button className="
 					capitalize

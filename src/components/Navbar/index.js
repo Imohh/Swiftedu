@@ -11,7 +11,8 @@ const Navbar = () => {
 
 	return (
 		<>
-
+{/*transition: all 2s cubic-bezier(0.16, 1, 0.3, 1
+	transform: rotate(225deg)*/}
 			<nav className="mx-auto p-4 bg-green-900">
 			    <div className="
 			      mx-0
@@ -54,8 +55,8 @@ const Navbar = () => {
 			        aria-expanded="false"
 			        aria-label="Open Menu">
 			        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-			          stroke-width="2">
-			          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+			          strokeWidth="2">
+			          <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
 			        </svg>
 			      </button>
 			      <div role="menubar" 
@@ -149,12 +150,12 @@ const Navbar = () => {
 			      </div>
 			    </div>
 			    {show && 
-			    	<div class="lg:hidden shadow-lg" id="mobile-menu">
-					    <div class="px-2 pt-2 pb-3 space-y-1">
-					      <a href="/" class="text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
-					      <a href="/" class="text-white block px-3 py-2 rounded-md text-base font-medium">About us</a>
-					      <a href="/" class="text-white block px-3 py-2 rounded-md text-base font-medium">Services</a>
-					      <a href="/contact" class="text-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+			    	<div className="lg:hidden shadow-lg" id="mobile-menu">
+					    <div className="px-2 pt-2 pb-3 space-y-1">
+					      <a href="/" className="text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
+					      <a href="/about" className="text-white block px-3 py-2 rounded-md text-base font-medium">About us</a>
+					      <a href="/" className="text-white block px-3 py-2 rounded-md text-base font-medium">Services</a>
+					      <a href="/contact" className="text-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
 					    </div>
 					</div>
 				}

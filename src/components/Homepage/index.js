@@ -95,7 +95,7 @@ const Homepage = () => {
 			</div>
 			{/*PARTNERS SECTION*/}
 			<div className="p-10 md:p-20 lg:p-20 bg-gray-200">
-				<p className="wow fadeInUp text-center pb-12 text-gray-400 text-xl font-bold">Swift Educational Consult is an award winning platform trusted by leading employer companies and schools</p>
+				<p className="wow fadeInUp text-center pb-12 text-gray-400 text-lg md:text-lg lg:text-xl font-semibold md:font-bold lg:font-bold">Swift Educational Consult is an award winning platform trusted by leading employer companies and schools</p>
 				
 				<div className="flex gap-4 justify-center px-0 lg:px-36 sm:text-center">
 					<div className="wow bounceIn">
@@ -127,7 +127,7 @@ const Homepage = () => {
 					w-90 text-3xl font-semibold md:text-5xl lg:text-5xl font-semibold mb-10 text-center lg:text-left md:text-left"
 					data-wow-delay="0.2s"
 					>
-						Fill more vacancies in a shorter time.
+						Fill more vacancies in a shorter time
 					</h2>
 					<p className="
 					text-gray-400 text-base md:text-lg lg:text-xl text-center lg:text-left md:text-left">Swift Educational Consult is the strategic enhancement to your applicant tracking system. Consolidate your recruitment
@@ -254,7 +254,7 @@ const Homepage = () => {
 
 			{/* TESTIMONIAL SECTION*/}
 			<div className="bg-gray-200 px-5 py-10 lg:px-20 lg:py-40 sm:px-10 sm:py-20">
-				<h1 className="wow fadeInUp text-center text-4xl font-bold capitalize pb-10 mx-auto">What our clients think about us</h1>
+				<h1 className="wow fadeInUp text-center text-3xl md:text-4xl lg:text-4xl font-bold capitalize pb-10 mx-auto">What our clients think about us</h1>
 				<div className="gap-4 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 bg-gray-200 lg:py-10 lg:px-36 sm:py-10">
 					<div className="wow bounceIn bg-white p-10 w-full mx-auto shadow-lg">
 						<div className="pb-5">

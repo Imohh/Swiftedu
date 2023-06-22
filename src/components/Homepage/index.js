@@ -5,7 +5,8 @@ import tools from './images/tools.jpg'
 import vacancy from './images/vacancy.jpg'
 import section1 from './images/section-1.webp'
 import arrowright from './images/arrow-right.png'
-import background from './images/background.jpg'
+// import background from './images/background.jpg'
+import background from './images/background.avif'
 import comma from './images/comma.png'
 import tots from './images/tots-n-cots.png'
 import leventis from './images/leventis.png'
@@ -32,7 +33,7 @@ const Homepage = () => {
 			lg:px-20
 			sm:py-10
 			sm:px-10
-			bg-blue-900">
+			bg-green-900">
 				<div className="my-auto wow fadeInLeft">
 					<h1 className="
 					text-3xl
@@ -67,11 +68,12 @@ const Homepage = () => {
 					sm:mb-0">
 						<button className="
 						text-white
-						bg-blue-600
+						font-semibold
+						bg-orange-600
 						py-3
 						px-10
 						rounded-md
-						hover:bg-blue-500
+						hover:bg-orange-500
 						transition-bg
 						">Request a Demo</button>
 					</div>
@@ -119,7 +121,7 @@ const Homepage = () => {
 				<div className="sm:text-center lg:text-left my-auto 
 				wow fadeInUp"
 				 data-wow-delay="0.2s">
-					<p className="text-blue-500 uppercase font-semibold mb-5 text-base md:text-lg lg:text-lg text-center lg:text-left md:text-left">strategic enhancement</p>
+					<p className="text-orange-500 uppercase font-semibold mb-5 text-base md:text-lg lg:text-lg text-center lg:text-left md:text-left">strategic enhancement</p>
 					<h2 className="
 					wow bounceIn
 					w-90 text-3xl font-semibold md:text-5xl lg:text-5xl font-semibold mb-10 text-center lg:text-left md:text-left"
@@ -145,7 +147,7 @@ const Homepage = () => {
 				</div>
 				
 				<div className="sm:text-center py-10 lg:py-0 md:py-0 lg:text-left my-auto order-1 lg:order-2 sm:px-0 lg:px-10 wow fadeInUp">
-					<p className="text-blue-500 uppercase font-semibold mb-5 text-base md:text-lg lg:text-lg text-center lg:text-left md:text-left">tools and systems</p>
+					<p className="text-orange-500 uppercase font-semibold mb-5 text-base md:text-lg lg:text-lg text-center lg:text-left md:text-left">tools and systems</p>
 					<h2 className="w-90 text-3xl font-semibold md:text-5xl lg:text-5xl font-semibold mb-10 text-center lg:text-left md:text-left">Recruiting tools and tracking systems</h2>
 					<p className="text-gray-400 text-base md:text-lg lg:text-xl text-center lg:text-left md:text-left">Swift Education is fully integrated wth other recruiting tools and applicant tracking
 					systems. With other recruiting tools and applicant tracking systems.</p>
@@ -160,12 +162,13 @@ const Homepage = () => {
 						items-center
 						jstify-between
 						text-white
-						bg-blue-600
+						bg-orange-600
 						py-3
 						px-10
 						rounded-md
-						hover:bg-blue-500
+						hover:bg-orange-500
 						transition-bg
+						capitalize
 						">
 						discover all <img className="ml-2" width="24" height="24" src={arrowright} alt="long-arrow-right"/>
 						</button>
@@ -179,11 +182,11 @@ const Homepage = () => {
 					<p className="text-white mb-10 text-xl">Would you like to see the Swift Education Platform in action?</p>
 					<button className="
 					text-white
-					bg-blue-600
+					bg-orange-600
 					py-3
 					px-10
 					rounded-md
-					hover:bg-blue-500
+					hover:bg-orange-500
 					transition-bg
 					">Request a Demo</button>
 				</div>
@@ -192,7 +195,7 @@ const Homepage = () => {
 			{/*SECTION*/}
 			<div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4 bg-white px-5 py-10 lg:px-20 lg:py-40 sm:px-10 sm:py-20">
 				<div className="wow fadeInLeft">
-					<p className="ext-blue-500 uppercase font-semibold mb-5 text-base md:text-lg lg:text-lg text-center lg:text-left md:text-left">solution challenge</p>
+					<p className="text-orange-500 uppercase font-semibold mb-5 text-base md:text-lg lg:text-lg text-center lg:text-left md:text-left">solution challenge</p>
 					<h2 className="w-90 text-3xl font-semibold md:text-5xl lg:text-5xl font-semibold mb-10 text-center lg:text-left md:text-left">A solution for every recruitment challenge</h2>
 					<div className="
 					flex
@@ -203,11 +206,11 @@ const Homepage = () => {
 						items-center
 						jstify-between
 						text-white
-						bg-blue-600
+						bg-orange-600
 						py-3
 						px-10
 						rounded-md
-						hover:bg-blue-500
+						hover:bg-orange-500
 						transition-bg
 						">See All <img className="ml-2" width="24" height="24" src={arrowright} alt="long-arrow-right"/>
 						</button>
@@ -258,28 +261,28 @@ const Homepage = () => {
 							<img className="float-left" width="40" height="40" src={comma} alt="comma" />
 							<img width="40" height="40" src={comma} alt="comma" />
 						</div>
-						<p className="text-2xl pb-10">"I don't have to worry about getting new members of staff for my school. Swift Education handles it with ease"</p>
-						<p className="text-xl font-semibold">Mrs. Chikwendu</p>
-						<p className="text-gray-400">Owner of Tot n' Cots School</p>
+						<p className="text-2xl pb-10 lg:text-left md:text-left text-center">"I don't have to worry about getting new members of staff for my school. Swift Education handles it with ease"</p>
+						<p className="text-xl font-semibold lg:text-left md:text-left text-center">Mrs. Chikwendu</p>
+						<p className="text-gray-400 lg:text-left md:text-left text-center">Owner of Tot n' Cots School</p>
 					</div>
 					<div className="wow bounceIn bg-white p-10 w-full mx-auto shadow-lg">
 						<div className="pb-5">
 							<img className="float-left" width="40" height="40" src={comma} alt="comma" />
 							<img width="40" height="40" src={comma} alt="comma" />
 						</div>
-						<p className="text-2xl pb-10">"At first i was skeptical but after working with Swift Edu for over 2 years,
+						<p className="text-2xl pb-10 lg:text-left md:text-left text-center">"At first i was skeptical but after working with Swift Edu for over 2 years,
 						i can confidently recommend them to people who need their services"</p>
-						<p className="text-xl font-semibold">Mr. Emeka</p>
-						<p className="text-gray-400">HR Leventis</p>
+						<p className="text-xl font-semibold lg:text-left md:text-left text-center">Mr. Emeka</p>
+						<p className="text-gray-400 lg:text-left md:text-left text-center">HR Leventis</p>
 					</div>
 					<div className="wow bounceIn bg-white p-10 w-full mx-auto shadow-lg">
 						<div className="pb-5">
 							<img className="float-left" width="40" height="40" src={comma} alt="comma" />
 							<img width="40" height="40" src={comma} alt="comma" />
 						</div>
-						<p className="text-2xl pb-10">"Extremely professional and deliver on time"</p>
-						<p className="text-xl font-semibold">Mrs. Temitope</p>
-						<p className="text-gray-400">Marketer at Ocean View</p>
+						<p className="text-2xl pb-10 lg:text-left md:text-left text-center">"Extremely professional and deliver on time"</p>
+						<p className="text-xl font-semibold lg:text-left md:text-left text-center">Mrs. Temitope</p>
+						<p className="text-gray-400 lg:text-left md:text-left text-center">Marketer at Ocean View</p>
 					</div>
 				</div>
 			</div>
@@ -287,7 +290,7 @@ const Homepage = () => {
 
 			{/*SECTION*/}
 			<div className="grid lg:grid-cols-1 sm:grid-cols-1 bg-white lg:px-20 lg:py-40 sm:px-10 sm:py-20">
-				<div className="wow fadeInUp bg-blue-500 py-10 px-3 lg:px-30 lg:py-40 sm:p-20 md:rounded-lg lg:rounded-lg shadow-lg">
+				<div className="wow fadeInUp bg-green-500 py-10 px-3 lg:px-30 lg:py-40 sm:p-20 md:rounded-lg lg:rounded-lg shadow-lg">
 					<div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-0 gap-4 xl:gap-40">
 						<h2 className="
 							wow fadeInLeft
@@ -314,19 +317,19 @@ const Homepage = () => {
 									border 
 									border-gray-300 
 									focus:outline-none 
-									focus:ring-blue-500 
-									focus:border-blue-500 
+									focus:ring-orange-500 
+									focus:border-orange-500 
 									flex-grow" placeholder="Your Email" />
 									<div className="flex justify-center">
 									<button className="
 									lg:rounded-r-md 
-									bg-blue-900 
+									bg-orange-600
 									text-white 
 									py-2 
 									px-4 
 									ml-0
 									lg:ml-2
-									hover:bg-blue-800
+									hover:bg-orange-500
 									transition-bg">Get a Demo</button>
 									</div>
 								</div>

@@ -1,4 +1,4 @@
-import logo from '../Navbar/images/nestle-logo.png'
+import logo from '../Navbar/images/swift-logo.jpg'
 import facebook from './images/facebook.png'
 import instagram from './images/instagram.png'
 import twitter from './images/twitter.png'
@@ -6,13 +6,13 @@ import twitter from './images/twitter.png'
 const Footer = () => {
 	return (
 		<>
-			<div className="grid lg:grid-cols-4 sm:grid-cols-2 gap-4 p-10 lg:px-20 lg:py-20 md:px-20 md:py-10 sm:py-20 sm:px-10 md:py-20 bg-blue-900">
+			<div className="grid lg:grid-cols-4 sm:grid-cols-2 gap-4 p-10 lg:px-20 lg:py-20 md:px-20 md:py-10 sm:py-20 sm:px-10 md:py-20 bg-green-900">
 				<div>
 					<div className="flex
 					justify-center
 					sm:justify-between
 					lg:justify-between">
-						<img src={logo} width="200" className="w-48 md:w-64 lg:w-72" alt="Home Smart Logo" />
+						<img src={logo} width="200" className="w-28 md:w-64 lg:w-28" alt="Home Smart Logo" />
 					</div>
 					<p className="text-gray-400 font-semibold text-center lg:text-left md:text-left">The most complete recruitment agency for talent suorcing, recruitment events and internal mobility.</p>
 
@@ -30,17 +30,17 @@ const Footer = () => {
 					justify-center
 					lg:float-left">
 						<a href="">
-						  <div className="p-3 bg-blue-500 mr-2 h-10 w-10 rounded-3xl">
+						  <div className="p-3 bg-green-500 mr-2 h-10 w-10 rounded-3xl">
 						    <img width="20" src={facebook} alt="facebook" />
 						  </div>
 						</a>
 						<a href="">
-						  <div className="p-3 bg-blue-500 mr-2 h-10 w-10 rounded-3xl">
+						  <div className="p-3 bg-green-500 mr-2 h-10 w-10 rounded-3xl">
 						    <img width="20" src={instagram} alt="instagram" />
 						  </div>
 					  	</a>
 						<a href="">
-						  <div className="p-3 bg-blue-500 mr-2 h-10 w-10 rounded-3xl">
+						  <div className="p-3 bg-green-500 mr-2 h-10 w-10 rounded-3xl">
 					    	<img width="20" src={twitter} alt="twitter" />
 						  </div>
 					  	</a>
@@ -66,7 +66,7 @@ const Footer = () => {
 				</div>
 
 			</div>
-			<div className="text-center p-5 bg-blue-900 border-t border-solid border-gray-500">
+			<div className="text-center p-5 bg-green-900 border-t border-solid border-gray-500">
 				<p className="text-white text-lg">All rights reserved. © Swift Education</p>
 			</div>
 		</>

@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
-import logo from './images/nestle-logo.png'
+// import logo from './images/nestle-logo.png'
+import logo from './images/swift-logo.jpg'
 
 const Navbar = () => {
 	const [show, setShow] = useState(false)
@@ -11,7 +12,7 @@ const Navbar = () => {
 	return (
 		<>
 
-			<nav className="mx-auto p-4 bg-blue-900">
+			<nav className="mx-auto p-4 bg-green-900">
 			    <div className="
 			      mx-0
 			      lg:container
@@ -26,7 +27,7 @@ const Navbar = () => {
 			        ring-neutral-900
 			        rounded-sm
 			        ring-offset-4
-			        ring-offset-blue-900
+			        ring-offset-green-900
 			        lg:absolute
 			        lg:left-1/2
 			        lg:-translate-x-1/2
@@ -35,7 +36,7 @@ const Navbar = () => {
 			        hover:opacity-75
 			        transition-opacity
 			      " aria-label="Go to homepage">
-			        <img src={logo} width="200" className="w-48 md:w-64 lg:w-72" alt="Home Smart Logo" />
+			        <img src={logo} width="200" className="w-16 md:w-64 lg:w-28" alt="Home Smart Logo" />
 			      </a>
 			      <button id="menu" className="
 			        lg:hidden
@@ -44,7 +45,7 @@ const Navbar = () => {
 			        ring-neutral-900
 			        rounded-sm
 			        ring-offset-4
-			        ring-offset-blue-900
+			        ring-offset-green-900
 			        text-white
 			        hover:text-white-600
 			        transition-colors
@@ -67,7 +68,7 @@ const Navbar = () => {
 			        right-0
 			        left-0
 			        top-16
-			        bg-blue-900
+			        bg-green-900
 			        shadow-xl
 			        text-center
 			        text-lg

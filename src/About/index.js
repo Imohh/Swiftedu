@@ -7,13 +7,13 @@ const About = () => {
 	return (
 		<>
 		<Helmet>
-	        <title>Swift Education | About Page</title>
-	        <meta name="description" content="Swift Education about page" />
+	        <title>Swift Educational Consult | About Page</title>
+	        <meta name="description" content="Swift Educational Consult about page" />
 	    </Helmet>
 
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 px-10 py-20 xl:py-20 lg:px-60">
 				<div className="my-auto text-center lg:text-left md:text-left wow fadeInLeft">
-					<h1 className="text-4xl xl:text-6xl md:text-6xl text-blue-900 font-bold mb-10">Looking to find and hire great talent?</h1>
+					<h1 className="text-4xl xl:text-6xl md:text-6xl text-orange-900 font-bold mb-10">Looking to find and hire great talent?</h1>
 					<p className="text-xl">Our aim is to provide best-in-class recruitment tools, processes, and automation
 					in one complete solution</p>
 				</div>
@@ -40,17 +40,17 @@ const About = () => {
 					<img className="mx-auto" width="40%" src={handshake} alt="external-vision-economy-flatart-icons-flat-flatarticons-1"/>
 				</div>
 				<div className="text-center md:text-left lg:text-left wow fadeInRight">
-					<h1 className="text-blue-900 mb-10 text-6xl font-bold">Join us</h1>
+					<h1 className="text-orange-900 mb-10 text-6xl font-bold">Join us</h1>
 					<p className="text-xl mb-10">Enough about us. We're more interested in you. Talent sourcing in our blood, so if you're bright,
 					bold and after more than a job, get in touch. We look forward to meeting you.</p>
 					<button className="
 					capitalize
 					text-white
-					bg-blue-600
+					bg-orange-600
 					py-3
 					px-10
 					rounded-md
-					hover:bg-blue-500
+					hover:bg-orange-500
 					transition-bg">contact us</button>
 				</div>
 			</div>

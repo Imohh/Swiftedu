@@ -7,11 +7,11 @@ const Contact = () => {
 	return (
 		<>
 			<Helmet>
-		        <title>Swift Education | Contact Page</title>
-		        <meta name="description" content="Swift Education about page" />
+		        <title>Swift Educational Consult | Contact Page</title>
+		        <meta name="description" content="Swift Educational Consult about page" />
 		    </Helmet>
 			<div className="text-center mx-auto p-20 wow fadeInUp">
-				<p className="text-blue-900 pb-5 text-lg font-semibold capitalize">contact us</p>
+				<p className="text-orange-900 pb-5 text-lg font-semibold capitalize">contact us</p>
 				<h1 className="text-3xl md:text-6xl lg:text-6xl pb-5 font-bold wow fadeInRight wow rubberBand">Love to hear from you, get in touch</h1>
 				<p className="text-md md:text-lg :lg:text-lg">We have an office and a team to attend to your needs from anywhere in the country</p>
 			</div>
@@ -24,17 +24,17 @@ const Contact = () => {
 				<div className="text-center pb-10 md:pb-0 lg:pb-0 wow zoomInDown">
 					<p className="text-lg capitalize font-semibold pb-5">support</p>
 					<p className="text-gray-400 pb-2 lg:pb-5">Our friendly team is here to help</p>
-					<p className="text-blue-900 font-semibold">support@swiftedu.com</p>
+					<p className="text-orange-900 font-semibold">support@swiftedu.com</p>
 				</div>
 				<div className="text-center pb-10 md:pb-0 lg:pb-0 wow zoomInDown">
 					<p className="text-lg capitalize font-semibold pb-5">sales</p>
 					<p className="text-gray-400 pb-2 lg:pb-5">Questions or queries? Get in touch!</p>
-					<p className="text-blue-900 font-semibold">sales@swiftedu.com</p>
+					<p className="text-orange-900 font-semibold">sales@swiftedu.com</p>
 				</div>
 				<div className="text-center wow zoomInDown">
 					<p className="text-lg capitalize font-semibold pb-5">phone</p>
 					<p className="text-gray-400 pb-2 lg:pb-5">Mon-Fri from 8am -5pm</p>
-					<p className="text-blue-900 font-semibold">08106450944</p>
+					<p className="text-orange-900 font-semibold">08106450944</p>
 				</div>
 			</div>
 		</>

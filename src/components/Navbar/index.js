@@ -36,7 +36,7 @@ const Navbar = () => {
 			        hover:opacity-75
 			        transition-opacity
 			      " aria-label="Go to homepage">
-			        <img src={logo} width="200" className="w-16 md:w-64 lg:w-28" alt="Home Smart Logo" />
+			        <img src={logo} width="200" className="w-16 md:w-24 lg:w-28" alt="Home Smart Logo" />
 			      </a>
 			      <button id="menu" className="
 			        lg:hidden

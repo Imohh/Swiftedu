@@ -18,8 +18,8 @@ const Homepage = () => {
 	return (
 		<>
 		<Helmet>
-	        <title>Welcome to Swift Education | Hire the best talent today!</title>
-	        <meta name="description" content="Swift Education about page" />
+	        <title>Welcome to Swift Educational Consult | Hire the best talent today!</title>
+	        <meta name="description" content="Swift Educational Consult about page" />
 	    </Helmet>
 
 		{/*HERO SECTION*/}
@@ -95,7 +95,7 @@ const Homepage = () => {
 			</div>
 			{/*PARTNERS SECTION*/}
 			<div className="p-10 md:p-20 lg:p-20 bg-gray-200">
-				<p className="wow fadeInUp text-center pb-12 text-gray-400 text-xl font-bold">Swift Education is an award winning platform trusted by leading employer companies and schools</p>
+				<p className="wow fadeInUp text-center pb-12 text-gray-400 text-xl font-bold">Swift Educational Consult is an award winning platform trusted by leading employer companies and schools</p>
 				
 				<div className="flex gap-4 justify-center px-0 lg:px-36 sm:text-center">
 					<div className="wow bounceIn">
@@ -130,7 +130,7 @@ const Homepage = () => {
 						Fill more vacancies in a shorter time.
 					</h2>
 					<p className="
-					text-gray-400 text-base md:text-lg lg:text-xl text-center lg:text-left md:text-left">Swift Education is the strategic enhancement to your applicant tracking system. Consolidate your recruitment
+					text-gray-400 text-base md:text-lg lg:text-xl text-center lg:text-left md:text-left">Swift Educational Consult is the strategic enhancement to your applicant tracking system. Consolidate your recruitment
 					activities on one single platform and build talent pools for long term success in recruitment.</p>
 				</div>
 
@@ -149,7 +149,7 @@ const Homepage = () => {
 				<div className="sm:text-center py-10 lg:py-0 md:py-0 lg:text-left my-auto order-1 lg:order-2 sm:px-0 lg:px-10 wow fadeInUp">
 					<p className="text-orange-500 uppercase font-semibold mb-5 text-base md:text-lg lg:text-lg text-center lg:text-left md:text-left">tools and systems</p>
 					<h2 className="w-90 text-3xl font-semibold md:text-5xl lg:text-5xl font-semibold mb-10 text-center lg:text-left md:text-left">Recruiting tools and tracking systems</h2>
-					<p className="text-gray-400 text-base md:text-lg lg:text-xl text-center lg:text-left md:text-left">Swift Education is fully integrated wth other recruiting tools and applicant tracking
+					<p className="text-gray-400 text-base md:text-lg lg:text-xl text-center lg:text-left md:text-left">Swift Educational Consult is fully integrated wth other recruiting tools and applicant tracking
 					systems. With other recruiting tools and applicant tracking systems.</p>
 
 					<div className="
@@ -179,7 +179,7 @@ const Homepage = () => {
 			{/*SECTION*/}
 			<div className="grid grid-1 text-center px-5 py-16 md:py-20 md:px-40 lg:py-20 lg:px-40 bg-cover bg-center" style={{ backgroundImage: `url(${background})` }}>
 				<div className="wow fadeInUp">
-					<p className="text-white mb-10 text-xl">Would you like to see the Swift Education Platform in action?</p>
+					<p className="text-white mb-10 text-xl">Would you like to see the Swift Educational Consult Platform in action?</p>
 					<button className="
 					text-white
 					bg-orange-600
@@ -230,7 +230,7 @@ const Homepage = () => {
 								<img width="55" height="55" src="https://img.icons8.com/ios/55/louvre-pyramid.png" alt="louvre-pyramid"/>
 							</div>
 							<h2 className="mt-10 text-2xl capitalize font-bold text-center lg:text-left md:text-left">talent sourcing</h2>
-							<p className="mt-5 text-gray-400 text-center lg:text-left md:text-left">Swift Education is the strategic enhancement to your applicant tracking system. Consolidate your recruitment
+							<p className="mt-5 text-gray-400 text-center lg:text-left md:text-left">Swift Educational Consult is the strategic enhancement to your applicant tracking system. Consolidate your recruitment
 								activities on one single platform and build talent pools for long term success in recruitment.</p>
 						</div>
 
@@ -245,7 +245,7 @@ const Homepage = () => {
 								<img width="55" height="55" src="https://img.icons8.com/ios/55/louvre-pyramid.png" alt="louvre-pyramid"/>
 							</div>
 							<h2 className="mt-10 text-2xl capitalize font-bold text-center lg:text-left md:text-left">internal mobility</h2>
-							<p className="mt-5 text-gray-400 text-center lg:text-left md:text-left">Swift Education is the strategic enhancement to your applicant tracking system. Consolidate your recruitment
+							<p className="mt-5 text-gray-400 text-center lg:text-left md:text-left">Swift Educational Consult is the strategic enhancement to your applicant tracking system. Consolidate your recruitment
 								activities on one single platform and build talent pools for long term success in recruitment.</p>
 						</div>
 					</div>
@@ -261,7 +261,7 @@ const Homepage = () => {
 							<img className="float-left" width="40" height="40" src={comma} alt="comma" />
 							<img width="40" height="40" src={comma} alt="comma" />
 						</div>
-						<p className="text-2xl pb-10 lg:text-left md:text-left text-center">"I don't have to worry about getting new members of staff for my school. Swift Education handles it with ease"</p>
+						<p className="text-2xl pb-10 lg:text-left md:text-left text-center">"I don't have to worry about getting new members of staff for my school. Swift Educational Consult handles it with ease"</p>
 						<p className="text-xl font-semibold lg:text-left md:text-left text-center">Mrs. Chikwendu</p>
 						<p className="text-gray-400 lg:text-left md:text-left text-center">Owner of Tot n' Cots School</p>
 					</div>

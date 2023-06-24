@@ -64,7 +64,7 @@ const Footer = () => {
 			</div>
 			<div className="text-center p-5 bg-green-900 border-t border-solid border-gray-500">
 				<p className="text-white text-base md:text-lg lg:text-lg">All rights reserved. © Swift Educational Consult</p>
-				<p className="text-white text-base">Developed with ❤️ by <a href="https://instagram.com/oprime.ng">Oprime.ng</a></p>
+				<p className="text-white text-base">Developed with ❤️ by <a className="text-orange-600" href="https://instagram.com/oprime.ng">Oprime.ng</a></p>
 			</div>
 		</>
 	)
